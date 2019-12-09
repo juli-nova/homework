@@ -11,12 +11,14 @@ function warnTheSheep(queue) {
 
 
 //Find the smallest integer in the array
-// ???????? 
-let integers = [] ;
-integers [1] = '32';
-integers [2] = '157';
-integers [3] = '12';
 
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let number = Math.min(... args);
+return number
+  
+}
+}
 
 
 
