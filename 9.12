@@ -1,0 +1,46 @@
+//'A wolf in sheep's clothing'
+
+function warnTheSheep(queue) {
+  if (queue[queue.length -1] === 'wolf') {
+    return 'Pls go away and stop eating my sheep';
+    } else {
+     let index = queue.findIndex( (x) => x == 'wolf' );
+     return `Oi! Sheep number ${queue.length - index - 1}! You are about to be eaten by a wolf!`;
+    }
+}
+
+
+//Find the smallest integer in the array
+// ???????? 
+let integers = [] ;
+integers [1] = '32';
+integers [2] = '157';
+integers [3] = '12';
+
+
+
+
+//DNA to RNA Conversion
+function DNAtoRNA(dna) {
+ return dna. replace (/T/g, "U")
+ }
+ 
+ 
+ //Beginner - Lost Without a Map
+ function maps(x){
+  return x.map(v => v*2);
+}
+
+
+//Find the first non-consecutive number
+ function firstNonConsecutive(arr) {
+  for (let i = 0; i < arr.length - 1; ++i) {
+    if (arr[i] + 1 !== arr[i + 1]) {
+      return arr[i + 1]
+    }
+  }
+  return null
+}
+
+//Convert a string to an array
+
