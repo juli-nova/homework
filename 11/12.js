@@ -45,6 +45,7 @@ function whatNumberIsIt(n){
     
     //https://www.codewars.com/kata/geometry-basics-circle-circumference-in-2d/train/javascript
     
-    
+    const circleCircumference = ({ radius }) => 2 * Math.PI * radius;
+
     
 
